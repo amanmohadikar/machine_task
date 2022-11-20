@@ -1,0 +1,116 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        ul{
+            /* List */
+            list-style-type: lower-roman;
+        }
+        
+
+        input{
+            /* Box-Model */
+            width: 100px;
+            height: 10px;
+            padding: 10px 20px 10px 20px;
+            margin: 10px 20px 10px 50px;
+            border-radius: 5px;
+        }
+
+
+        #myId{
+            background-color: brown;
+            width: 100%;
+            height: 100vh;
+            background-image: url("three.jpg");
+
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            font-style: italic;
+
+            color: black;
+            letter-spacing: 4px;
+            word-spacing: 5px;
+            direction: rtl;
+            text-indent: 10px;
+            text-align: left;
+            text-transform: uppercase;
+
+            border-style: double;
+            border-radius: 5px;
+            border-color: black;
+            border-width: 10px;
+            
+            
+        }
+
+
+        #myId1{
+            /* bacakground */
+            background-color: brown;
+            width: 100%;
+            height: 100vh;
+            background-image: url("two.jpg");
+
+            /* Font */
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            font-size: 1em;
+
+            /* Text */
+            color: black;
+            letter-spacing: 4px;
+            word-spacing: 5px;
+            text-indent: 50px;
+            text-transform: uppercase;
+
+            /* Border */
+            border-style: solid;
+            border-radius: 10px;
+            border-color: blueviolet;
+            border-width: 5px; }
+
+         /* Position */
+
+        .father{
+            width: 400px;
+            height: 300px;
+            background-color: rebeccapurple;
+            position: relative;
+        }
+
+        .c1{
+            width: 100px;
+            height: 50px;
+            background-color: brown;
+            position: absolute;
+            left: 0;
+        }
+
+        .c2{
+            width: 100px;
+            height: 50px;
+            background-color: greenyellow;
+            position: absolute;
+            right: 0;
+        }
+
+        .c3{
+            width: 100px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .c4{
+            width: 100px;
+            height: 50px;
+            background-color: pink;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }

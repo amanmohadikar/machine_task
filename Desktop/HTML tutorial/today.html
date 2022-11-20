@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script >
+        function countList(){
+            var numnerOfList=document.anchors.length
+            document.getElementById("aman").innerHTML=numnerOfList
+            document.body.style.backgroundColor="pink"
+        }
+        function change(){
+            document.querySelector("#a").innerHTML="hello"
+
+        }
+        
+    </script>
+</head>
+
+
+
+<body>
+   <a href="https://www.google.com" name="a">Google</a>
+   <br>
+   <a href="https://www.fb.com" name="b">Facebook</a>
+    <br>
+   <a href="https://www.whatsapp.com" name="c">Whatsapp</a>
+   <br>
+   <div id="aman" onclick="countList()">count all the links</div>
+
+   <P id="a" hii></P>
+   <div onclick="change()">Click Me</div>
+
+
+</body>
+</html>

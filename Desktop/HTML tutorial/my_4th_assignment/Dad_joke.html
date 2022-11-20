@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        *{
+            box-sizing: border-box;
+            
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background-color:white;
+            margin: 0;
+            padding: 20px;
+        }
+        .container{
+
+            background-color: white;
+            border-radius: 10px;
+            max-width: 100%;
+            width: 800px;
+            height: 300px;
+            text-align: center;
+            padding: 50px 20px;
+            border-width: 1000px;
+            border: 10px solid blueviolet
+        }
+        h3{
+            opacity: 500%;
+            letter-spacing: 3px;
+        }
+        .jokes{
+            max-width: 6000px;
+            font-size: 32px;
+            margin: 50px auto;
+            line-height: 4px;
+            
+
+        }
+        .jokesbtn{
+            
+            background-color:blueviolet;
+            color: white;
+            padding: 10px 10px;
+            border-radius: 10px;
+            font-size: 20px;
+        
+        }
+        .jokesbtn:active{
+            transform: scale(2.50);
+        }
+    </style>
+
+    <title>Dad Joke</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Don't laugh Challenge</h3>
+        <div id="jokes" class="jokes" >What is the hardest part about sky diving? The ground.</div>
+        
+        <button id="jokesbtn" class="jokesbtn">Get another joke</button>
+        
+    </div>
+</body>
+</html>
