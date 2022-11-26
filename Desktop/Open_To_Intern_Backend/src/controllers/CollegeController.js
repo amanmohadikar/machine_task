@@ -4,7 +4,6 @@ const {isValidString,isValidName,isValidImage} = require('../validators/validati
 
 const createCollege =async function (req,res){
 
-    
     try{
         let data = req.body
         let {name,fullName,logoLink}=data
