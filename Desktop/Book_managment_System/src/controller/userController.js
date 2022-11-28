@@ -4,7 +4,6 @@ const phoneRegex = /^[0]?[789]\d{9}$/
 const emailRegex = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/
 
 
-
 const createUser = async function (req, res) {
     let data = req.body;
     let { title, name, phone, email, password } = data;
