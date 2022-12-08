@@ -6,7 +6,6 @@ const getbitCoin = async function (req, res) {
         headers: {
             Authorization: "Bearer 6eeaca9e-b918-4d16-aae3-01b61091f894"
         }
-
     }
     let result = await axios("http://api.coincap.io/v2/assets", obj)
     let data1 = result.data.data
