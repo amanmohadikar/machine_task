@@ -11,13 +11,13 @@ const authentication = function (req, res, next) {
         let token = req.headers['x-api-key']
         if (!token) return res.status(404).send({ status: false, message: "Token is not present in header" })
 
-        // console.log("This is token : ", token)
+        console.log("This is token : ", token)
 
         let decoded = jwt.verify(token, "our first project")
 
         req.tokenAuthorId = decoded._id
 
-        // console.log("This is author Id of token : ", req.tokenAuthorId)
+        console.log("This is author Id of token : ", req.tokenAuthorId)
         next()
     }
     catch (err) {
